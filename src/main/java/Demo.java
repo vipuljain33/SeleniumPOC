@@ -8,7 +8,7 @@ public class Demo {
     public static void getTitle()
     {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/vipuljain/Desktop/Samples/seleniumPOC/chromedriver 2");
+        System.setProperty("webdriver.chrome.driver", "/Users/vipuljain/Desktop/Samples/seleniumPOC/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://google.com");
         System.out.println(driver.getTitle());
